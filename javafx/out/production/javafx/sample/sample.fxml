@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="853.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text fill="#1925c4" layoutX="253.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COVID-19 VACCINATION CENTER">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fontSmoothingType="LCD" layoutX="24.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Patient Details">
+         <font>
+            <Font name="Arial Bold Italic" size="17.0" />
+         </font>
+      </Text>
+      <Label layoutX="27.0" layoutY="182.0" text="First Name:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="230.0" text=" Surname:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="283.0" text="Age:">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="340.0" text="City:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="390.0" text="NIC/Passport No:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="440.0" text="Vaccination Requested:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="493.0" text="Booth Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="214.0" layoutY="177.0" promptText="First Name" />
+      <TextField layoutX="214.0" layoutY="225.0" promptText="Surname" />
+      <TextField layoutX="214.0" layoutY="282.0" promptText="Age" />
+      <TextField layoutX="214.0" layoutY="337.0" promptText="City" />
+      <TextField layoutX="214.0" layoutY="386.0" promptText="NIC/Passport No" />
+      <TextField layoutX="215.0" layoutY="489.0" promptText="Booth Number" />
+      <RadioButton layoutX="204.0" layoutY="441.0" mnemonicParsing="false" text="AstraZeneca">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="317.0" layoutY="441.0" mnemonicParsing="false" text="Sinopharm">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="437.0" layoutY="441.0" mnemonicParsing="false" text="Pfizer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="100.0" layoutY="573.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Reset">
+         <font>
+            <Font name="Arial Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="571.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Generate Receipt">
+         <font>
+            <Font name="Arial Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="684.0" layoutY="562.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Print">
+         <font>
+            <Font name="Arial Italic" size="21.0" />
+         </font>
+      </Button>
+      <Separator layoutX="466.0" layoutY="72.0" orientation="VERTICAL" prefHeight="569.0" prefWidth="83.0" />
+      <Button layoutX="558.0" layoutY="564.0" mnemonicParsing="false" style="-fx-background-color: grey;" text="Reset">
+         <font>
+            <Font name="Arial Italic" size="21.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="528.0" layoutY="170.0" prefHeight="360.0" prefWidth="313.0" promptText="Your Details" />
+      <Text fontSmoothingType="LCD" layoutX="546.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Receipt Details">
+         <font>
+            <Font name="Arial Bold Italic" size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
